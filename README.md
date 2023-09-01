@@ -16,5 +16,5 @@
 - Java
 - 多线程
 - SQLite
-![text](https://github.com/Pigeon2379/android-three-elimination-games/blob/master/screenshot/1.jpg)
+![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/1.jpg)
 
