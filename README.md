@@ -17,14 +17,5 @@
 - 多线程
 - SQLite
   
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/1.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/2.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/3.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/4.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/5.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/6.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/7.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/8.jpg)
-![text](https://github.com/Pigeon2379/android-three-elimination-games/raw/master/screenshot/9.jpg)
-
+### 演示图片详见 screenshot 文件夹
 
