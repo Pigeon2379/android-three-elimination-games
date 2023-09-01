@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <RelativeLayout
+        android:id="@+id/fragment_menu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tmce"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-100dp"
+            android:src="@drawable/tmce_title"/>
+        <ImageView
+            android:id="@+id/level_teach"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="260dp"
+            android:layout_marginLeft="500dp"
+            android:src="@drawable/tmce_botton_teach"/>
+        <ImageView
+            android:id="@+id/level_easy"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="330dp"
+            android:layout_marginLeft="-500dp"
+            android:src="@drawable/tmce_botton_easy"/>
+        <ImageView
+            android:id="@+id/level_middle"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginLeft="500dp"
+            android:src="@drawable/tmce_botton_middle"/>
+        <ImageView
+            android:id="@+id/level_hard"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="470dp"
+            android:layout_marginLeft="-500dp"
+            android:src="@drawable/tmce_botton_hard"/>
+        <ImageView
+            android:id="@+id/cancel"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="500dp"
+            android:src="@drawable/tmce_botton_cancel"/>
+        <ImageView
+            android:id="@+id/play"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="540dp"
+            android:layout_marginLeft="-200dp"
+            android:src="@drawable/tmce_button_play"/>
+
+        <ImageView
+            android:id="@+id/ranking"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="-250dp"
+            android:src="@drawable/button_ranking"/>
+        <ImageView
+            android:id="@+id/user"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="-250dp"
+            android:src="@drawable/button_user"/>
+        <ImageView
+            android:id="@+id/ranking_dark"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="500dp"
+            android:layout_marginLeft="-250dp"
+            android:alpha="0"
+            android:src="@drawable/frag_menu_dark"/>
+        <ImageView
+            android:id="@+id/user_dark"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="440dp"
+            android:layout_marginLeft="-250dp"
+            android:alpha="0"
+            android:src="@drawable/frag_menu_dark"/>
+
+    </RelativeLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

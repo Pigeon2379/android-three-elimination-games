@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!--    <item name="fire" type="id"/>-->
+<!--    <item name="rice" type="id"/>-->
+<!--    <item name="corn" type="id"/>-->
+<!--    <item name="bell" type="id"/>-->
+<!--    <item name="cabbage" type="id"/>-->
+<!--    <item name="milk" type="id"/>-->
+<!--    <item name="bucket" type="id"/>-->
+<!--    <item name="scissors" type="id"/>-->
+<!--    <item name="stump" type="id"/>-->
+<!--    <item name="gloves" type="id"/>-->
+<!--    <item name="hayfork" type="id"/>-->
+<!--    <item name="grass" type="id"/>-->
+<!--    <item name="brush" type="id"/>-->
+<!--    <item name="carrot" type="id"/>-->
+    <item name="bq" type="id"/>
+    <item name="hfm" type="id"/>
+    <item name="ldy" type="id"/>
+    <item name="lsz" type="id"/>
+    <item name="ssm" type="id"/>
+    <item name="wwy" type="id"/>
+    <item name="zzj" type="id"/>
+
+    <item name="bcgm" type="id"/>
+    <item name="jyj" type="id"/>
+    <item name="nj" type="id"/>
+    <item name="pwl" type="id"/>
+    <item name="qjyf" type="id"/>
+    <item name="shl" type="id"/>
+    <item name="tr" type="id"/>
+</resources>

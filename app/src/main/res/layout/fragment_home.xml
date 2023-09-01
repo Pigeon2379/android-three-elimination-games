@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".ui.home.HomeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/b_kc"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="-177dp"
+            android:src="@drawable/frag_intr_kc"/>
+
+        <ImageView
+            android:id="@+id/b_dj"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="587dp"
+            android:src="@drawable/frag_intr_dj"/>
+        <ImageView
+            android:id="@+id/b_pd"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="-122dp"
+            android:src="@drawable/frag_intr_pd"/>
+
+        <ImageView
+            android:id="@+id/b_lw"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-65dp"
+            android:layout_marginLeft="132dp"
+            android:src="@drawable/frag_intr_lw"/>
+
+        <ImageView
+            android:id="@+id/b_js"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="542dp"
+            android:src="@drawable/frag_intr_js"/>
+
+
+        <ImageView
+            android:id="@+id/kc"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="-177dp"
+            android:alpha="0"
+            android:src="@drawable/frag_intr_dark"/>
+        <ImageView
+            android:id="@+id/dj"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="587dp"
+            android:alpha="0"
+            android:src="@drawable/frag_intr_dark"/>
+        <ImageView
+            android:id="@+id/pd"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="-122dp"
+            android:alpha="0"
+            android:src="@drawable/frag_intr_dark"/>
+        <ImageView
+            android:id="@+id/lw"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginLeft="-132dp"
+            android:alpha="0"
+            android:src="@drawable/frag_intr_dark"/>
+        <ImageView
+            android:id="@+id/js"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="-65dp"
+            android:layout_marginLeft="242dp"
+            android:alpha="0"
+            android:src="@drawable/frag_intr_dark"/>
+
+
+        <ImageView
+            android:id="@+id/bg"
+            android:layout_width="320dp"
+            android:layout_height="1300dp"
+            android:layout_marginTop="40dp"
+            android:src="@drawable/frag_pd"
+            android:layout_marginLeft="-400dp"/>
+
+
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

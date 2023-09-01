@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:id="@+id/game">
+
+    <RelativeLayout
+        android:id="@+id/RL_game"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="13dp"
+            android:src="@drawable/activity_back"/>
+        <ImageView
+            android:id="@+id/dj"
+            android:layout_width="55dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="13dp"
+            android:layout_marginLeft="290dp"
+            android:src="@drawable/daoju"/>
+        <ImageView
+            android:id="@+id/cardslot_blue"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cardslot_blue_grey"/>
+        <ImageView
+            android:id="@+id/cardslot_red"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cardslot_red_grey"/>
+
+
+
+        <ImageView
+            android:id="@+id/cardslot"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="610dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cardslot_2"/>
+
+        <TextView
+            android:id="@+id/delet_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/10"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-135dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"/>
+
+        <Chronometer
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="20dp"/>
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
